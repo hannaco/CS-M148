@@ -1,0 +1,595 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.4)  28 JAN 2022 00:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"CS M148 Homework 1.tex"
+(./CS M148 Homework 1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen139
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip16
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks18
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks19
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count266
+\cp@tempcnt=\count267
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box49
+)
+(./CS M148 Homework 1.aux)
+\openout1 = `"CS M148 Homework 1.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count269
+\scratchdimen=\dimen150
+\scratchbox=\box50
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen151
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+[1]
+<./images/neighbor_graph.jpeg, id=12, 977.6525pt x 513.92pt>
+File: ./images/neighbor_graph.jpeg Graphic file (type jpg)
+<use ./images/neighbor_graph.jpeg>
+Package pdftex.def Info: ./images/neighbor_graph.jpeg  used on input line 41.
+(pdftex.def)             Requested size: 390.0pt x 205.01543pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--54
+
+ []
+
+[2 <./images/neighbor_graph.jpeg>] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--93
+
+ []
+
+[4] [5]
+<./images/residual_graph.jpeg, id=34, 602.25pt x 1123.19624pt>
+File: ./images/residual_graph.jpeg Graphic file (type jpg)
+<use ./images/residual_graph.jpeg>
+Package pdftex.def Info: ./images/residual_graph.jpeg  used on input line 119.
+(pdftex.def)             Requested size: 150.56212pt x 280.79837pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Overfull \hbox (52.62068pt too wide) in paragraph at lines 95--151
+[]$[][] \OML/cmm/m/it/12 x[]y[] \OMS/cmsy/m/n/12 ^^@ []\OML/cmm/m/it/12 x[] \OT
+1/cmr/m/n/12 = [(1800)(5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 
+; \OT1/cmr/m/n/12 000) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (111\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000)(1800)] + [(1850)
+(23\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000
+) \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (74.84256pt too wide) in paragraph at lines 95--151
+\OT1/cmr/m/n/12 (111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \O
+T1/cmr/m/n/12 000)(1850)] + [(1900)(76\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OM
+L/cmm/m/it/12 ; \OT1/cmr/m/n/12 000) \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 (111\
+OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000)(19
+00)] + [(1950)(161\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1
+/cmr/m/n/12 000) \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (13.9127pt too wide) in paragraph at lines 95--151
+[]$\OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 191\OML/cmm/m/it/12 ; 
+\OT1/cmr/m/n/12 160\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT
+1/cmr/m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 16\OML/cmm/m/it/12 ; \OT1
+/cmr/m/n/12 317\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1/cm
+r/m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 66\OML/cmm/m/it/12 ; \OT1/cmr
+/m/n/12 880\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/
+n/12 000 + 97\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 110\OML/cmm/m/it/12 ; \OT1/cmr/
+m/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Overfull \hbox (11.46559pt too wide) in paragraph at lines 95--151
+[]$[][]\OT1/cmr/m/n/12 ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 y[]\OT1/cmr/m/
+n/12 )[] = (\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 30\OML/cmm/m/it/12 ; \OT1/cmr/m
+/n/12 800\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m
+/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12
+ 000)[] + (40\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cmr/
+m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 23\OML/cmm/m/it/12 ; \OT1/cmr/m
+/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000)[] +
+ []
+
+
+Overfull \hbox (13.88211pt too wide) in paragraph at lines 95--151
+[]$[][]\OT1/cmr/m/n/12 ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 y[]\OT1/cmr/m/
+n/12 )[] = (111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cm
+r/m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/
+m/n/12 000\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000)[] + (111\OML/cmm/m/it/12 ; \O
+T1/cmr/m/n/12 200\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000 \OMS/cmsy/m/n/12 ^^@ \O
+T1/cmr/m/n/12 23\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 000\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 000)[] +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--151
+
+ []
+
+[6] [7 <./images/residual_graph.jpeg>] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+[10] (./CS M148 Homework 1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1921 strings out of 478994
+ 27170 string characters out of 5858184
+ 334067 words of memory out of 5000000
+ 19416 multiletter control sequences out of 15000+600000
+ 408810 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,7n,74p,426b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb>
+Output written on "CS M148 Homework 1.pdf" (11 pages, 785539 bytes).
+PDF statistics:
+ 90 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
