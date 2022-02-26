@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.4)  22 FEB 2022 02:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.10.4)  24 FEB 2022 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -201,118 +201,155 @@ e
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
+
+ []
+
 [2]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
-4.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
+Underfull \hbox (badness 10000) in paragraph at lines 39--55
+
+ []
+
+
+Overfull \hbox (28.1098pt too wide) in paragraph at lines 39--55
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--105
+
+ []
+
+[3]
+<./images/2a.jpg, id=27, 1674.255pt x 640.3925pt>
+File: ./images/2a.jpg Graphic file (type jpg)
+<use ./images/2a.jpg>
+Package pdftex.def Info: ./images/2a.jpg  used on input line 108.
+(pdftex.def)             Requested size: 502.28038pt x 192.11923pt.
+
+Overfull \hbox (112.28038pt too wide) in paragraph at lines 108--109
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--136
+
+ []
+
+[4 <./images/2a.jpg>] [5] [6]
+<./images/4a.png, id=37, 1087.06125pt x 351.81438pt>
+File: ./images/4a.png Graphic file (type png)
+<use ./images/4a.png>
+Package pdftex.def Info: ./images/4a.png  used on input line 149.
+(pdftex.def)             Requested size: 434.81679pt x 140.72325pt.
+
+Overfull \hbox (44.81679pt too wide) in paragraph at lines 149--150
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+52.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Overfull \hbox (76.79234pt too wide) in paragraph at lines 33--116
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Overfull \hbox (76.79234pt too wide) in paragraph at lines 33--116
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-
-Overfull \hbox (76.79234pt too wide) in paragraph at lines 33--116
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--116
-
- []
-
-[3] [4] [5]
-<./images/4a.png, id=30, 1087.06125pt x 351.81438pt>
-File: ./images/4a.png Graphic file (type png)
-<use ./images/4a.png>
-Package pdftex.def Info: ./images/4a.png  used on input line 138.
-(pdftex.def)             Requested size: 434.81679pt x 140.72325pt.
-
-Overfull \hbox (44.81679pt too wide) in paragraph at lines 138--139
-[][] 
- []
-
-<./images/4b.png, id=32, 1086.55937pt x 135.50626pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+<./images/4b.png, id=39, 1024.82875pt x 459.7175pt>
 File: ./images/4b.png Graphic file (type png)
 <use ./images/4b.png>
-Package pdftex.def Info: ./images/4b.png  used on input line 143.
-(pdftex.def)             Requested size: 434.61604pt x 54.20152pt.
+Package pdftex.def Info: ./images/4b.png  used on input line 154.
+(pdftex.def)             Requested size: 512.41312pt x 229.85818pt.
 
-Overfull \hbox (44.61604pt too wide) in paragraph at lines 143--144
+Overfull \hbox (122.41312pt too wide) in paragraph at lines 154--155
 [][] 
  []
 
-<./images/4c.png, id=33, 1093.58563pt x 580.66937pt>
+
+Overfull \hbox (22.18782pt too wide) in paragraph at lines 152--156
+\OT1/cmr/m/n/12 method, I found that the best pa-ram-e-ters are \OMS/cmsy/m/n/1
+2 f\OT1/cmr/m/n/12 'n[]estimators': 372, 'max[]features':
+ []
+
+<./images/4c.png, id=40, 1020.31187pt x 580.1675pt>
 File: ./images/4c.png Graphic file (type png)
 <use ./images/4c.png>
-Package pdftex.def Info: ./images/4c.png  used on input line 148.
-(pdftex.def)             Requested size: 437.4265pt x 232.26363pt.
+Package pdftex.def Info: ./images/4c.png  used on input line 159.
+(pdftex.def)             Requested size: 510.1547pt x 290.08302pt.
 
-Overfull \hbox (47.4265pt too wide) in paragraph at lines 148--149
+Overfull \hbox (120.1547pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./images/4a.png> <./images/4b.png>] [7 <./images/4c.png>]
-<./images/4d.png, id=44, 983.675pt x 647.92062pt>
+[7 <./images/4a.png> <./images/4b.png>] [8 <./images/4c.png>]
+<./images/4d.png, id=51, 933.4875pt x 690.58pt>
 File: ./images/4d.png Graphic file (type png)
 <use ./images/4d.png>
-Package pdftex.def Info: ./images/4d.png  used on input line 154.
-(pdftex.def)             Requested size: 393.46303pt x 259.16365pt.
-
-Overfull \hbox (3.46303pt too wide) in paragraph at lines 154--155
-[][] 
- []
-
-[8
+Package pdftex.def Info: ./images/4d.png  used on input line 165.
+(pdftex.def)             Requested size: 373.38838pt x 276.2271pt.
+ [9
 
  <./images/4d.png>]
-Overfull \hbox (3.13815pt too wide) in paragraph at lines 160--177
+Overfull \hbox (3.13815pt too wide) in paragraph at lines 171--188
 \OT1/cmr/m/n/12 We fi-nally make a pre-dic-tion for our last point, $(2\OML/cmm
 /m/it/12 ; \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3) : (2)(\OMS/cmsy/m/n/12 ^^@\OT
 1/cmr/m/n/12 3) + (\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3)(\OMS/cmsy/m/n/12 ^^@\
@@ -320,51 +357,54 @@ OT1/cmr/m/n/12 13) \OMS/cmsy/m/n/12 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--177
+Underfull \hbox (badness 10000) in paragraph at lines 171--188
 
  []
 
-[9
+[10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 182--188
+Underfull \hbox (badness 10000) in paragraph at lines 193--199
 
  []
 
-<./images/6b.jpeg, id=52, 293.095pt x 329.23pt>
+<./images/6b.jpeg, id=59, 293.095pt x 329.23pt>
 File: ./images/6b.jpeg Graphic file (type jpg)
 <use ./images/6b.jpeg>
-Package pdftex.def Info: ./images/6b.jpeg  used on input line 191.
+Package pdftex.def Info: ./images/6b.jpeg  used on input line 202.
 (pdftex.def)             Requested size: 117.23592pt x 131.68965pt.
-[10 <./images/6b.jpeg>] [11
+[11 <./images/6b.jpeg>] [12
 
-] (./CS M148 Homework 3.aux) ) 
+] [13] (./CS M148 Homework 3.aux) ) 
 Here is how much of TeX's memory you used:
- 3499 strings out of 478994
- 55661 string characters out of 5858184
- 371312 words of memory out of 5000000
- 20972 multiletter control sequences out of 15000+600000
- 409753 words of font info for 49 fonts, out of 8000000 for 9000
+ 3511 strings out of 478994
+ 55829 string characters out of 5858184
+ 354312 words of memory out of 5000000
+ 20981 multiletter control sequences out of 15000+600000
+ 410094 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,359b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvi
-ps/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/s
-frm1200.pfb>
-Output written on "CS M148 Homework 3.pdf" (11 pages, 753962 bytes).
+ 68i,8n,74p,519b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/en
+c/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
+sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sf
+rm1200.pfb>
+Output written on "CS M148 Homework 3.pdf" (13 pages, 1435047 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

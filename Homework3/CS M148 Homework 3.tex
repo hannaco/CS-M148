@@ -18,114 +18,125 @@
 \maketitle
 \newpage
 \section{Multinomial Logistic Regression}
-\subsection*{a)} Given $ln\frac{P(Y_i=1)}{P(Y_i=K)} = \beta_iX_i$, we can derive the probability for the event that $Y_i=1$:\\
-$\frac{P(Y_i=1)}{P(Y_i=K)}=e^{\beta_iX_i}$\\
-$P(Y_i=1)=P(Y_I=K)e^{\beta_iX_i}$\\
+\subsection*{a)} Given $ln\frac{P(Y_i=1)}{P(Y_i=K)} = \beta_iX_i$, we can derive the probability for the event that $Y_i=K$:\\
 Since we know the sum of all probabilities must add up to 1:\\
-$K*P(Y_i=K)\sum_{i=1}^{K}e^{\beta_iX_i}=1$\\
-Thus, we can derive the probability for $P(Y_i=K)$:\\
-$P(Y_i=K)=\frac{1}{K\sum_{i=1}^{K}e^{\beta_iX_i}}$
+$\sum_{n=1}^{K}P(Y_i=n)=1$\\
+$P(Y_i=K)+\sum_{n=1}^{K-1}P(Y_i=n)=1$\\
+$P(Y_i=K)+\sum_{n=1}^{K-1}P(Y_i=K)e^{\beta_jX_i}$=1\\
+$P(Y_i=K)(1+\sum_{n=1}^{K-1}e^{\beta_jX_i})=1$\\
+Thus, the probability for class K is:\\
+$P(Y_i=K)=\frac{1}{1+\sum_{n=1}^{K-1}e^{\beta_jX_i}}$\\
 
-\subsection*{b)} TODO
+\subsection*{b)} We know the prediction for $X_i$ changes from k to r when $P(Y_i=r)>P(Y_i=k)$.\\
+From the softmax function, we get that $\frac{e^{\beta_rX_i}}{\sum_{j=1}^{K}\beta_jX_i}>\frac{e^{\beta_kX_i}}{\sum_{j=1}^{K}\beta_jX_i}$\\
+This is equivalent to $e^{\beta_rX_i}>e^{\beta_kX_i}$\\
+$= \beta_rX_i>\beta_kX_i$\\
+$= X_i(\beta_r=\beta_k)>0$\\
+This is the decision boundary for two classes $k$ and $r$.
 
 \newpage
 \section{Decision Trees}
 \subsection*{a)} We first begin by calculating entropy values for the table, and for each split:\\
 Total Entropy: $-\frac{5}{11}log_2\frac{5}{11}-\frac{6}{11}log_2\frac{6}{11}=0.994$\\\\
- \begin{tabular}{ |c|c|c|c|c|c|c| } 
+ \begin{tabular}{ |c|c|c| } 
  \hline
- \textbf{Feature} & \textbf{Left} & \textbf{Right}& \textbf{Entropy(L)}& \textbf{Entropy(R)}& \textbf{Weighted Avg}& \textbf{Info Gain} \\ 
+ \textbf{Feature} & \textbf{Weighted Average} & \textbf{Info Gain} \\ 
 \hline
-Price & \$ & \$\$,\$\$\$ & 0.918 & 0.954 & 0.945 & 0.049 \\ 
+Price & $\frac{1}{11}[(5(-\frac{3}{5}log_2\frac{3}{5}-\frac{2}{5}log_2\frac{2}{5})) + (4(-\frac{1}{2}log_2\frac{1}{2}-\frac{1}{2}log_2\frac{1}{2})) + 0]$ & 0.1891 \\ 
 \hline
-Price & \$\$& \$,\$\$\$ & 0.971 & 0.918 & 0.942 & 0.052 \\ 
+Type & 0.9422 & 0.0518 \\ 
 \hline
-Price & \$\$\$& \$,\$\$ & 0 & 0.99 & 0.811 & 0.183 \\ 
+Location & 0.9777 & 0.0163 \\ 
  \hline
-Location & LA & LB, B & 0.918 & 1 & 0.978 & 0.016 \\ 
- \hline
-Location & B & LA,  LB & 1 & 0.985 & 0.991 & 0.003 \\ 
- \hline
-Location & LB & LA, B & 1 & 0.985 & 0.991 & 0.003 \\ 
- \hline
-Level & B & I, A & 0.918 & 0.954 & 0.945 & 0.049 \\ 
- \hline
-Level & I & B, A & 1 & 0.985 & 0.991 & 0.003 \\ 
- \hline
-Level & A & I, B & 0.918 & 1 & 0.978 & 0.016 \\ 
- \hline
-Type & F & T, B & 0.918 & 1 & 0.978 & 0.016 \\ 
- \hline
-Type & T & F, B & 0.918 & 0.954 & 0.945 & 0.049 \\ 
- \hline
-Type & B & T, F & 0.971 & 1 & 0.987 & 0.007 \\ 
+Level & 0.9777 & 0.0163 \\ 
  \hline
 \end{tabular}\\\\
-Splitting on \{\{\$\$\$\}, \{\$, \$\$\}\} gives us the largest information gain, so we split on that feature, and recalculate our entropy values.\\\\
-Total Entropy: $-\frac{5}{9}log_2\frac{5}{9}-\frac{6}{9}log_2\frac{6}{9}=0.861$\\\\
- \begin{tabular}{ |c|c|c|c|c|c|c| } 
- \hline
- \textbf{Feature} & \textbf{Left} & \textbf{Right}& \textbf{Entropy(L)}& \textbf{Entropy(R)}& \textbf{Weighted Avg}& \textbf{Info Gain} \\ 
+We split on price, as that gives us the largest entropy gain.\\\\
+
+\textbf{\$ Branch; Entropy = 1}\\
+ \begin{tabular}{ |c|c|c| } 
 \hline
-Price & \$ & \$\$ & 1 & 0.971 & 0.984 & 0.007 \\ 
+ \textbf{Feature} & \textbf{Weighted Average} & \textbf{Info Gain} \\ 
+\hline
+Type & 0.5 & 0.5 \\ 
+\hline
+Location & 0.5 & 0.5 \\ 
  \hline
-Location & LA & LB, B & 1 & 0.985 & 0.989 & 0.003 \\ 
- \hline
-Location & B & LA,  LB & 1 & 0.971 & 0.984 & 0.009 \\ 
- \hline
-Location & LB & LA, B & 0.918 & 1 & 0.973 & 0.018 \\ 
- \hline
-Level & B & I, A & 0.918 & 1 & 0.973 & 0.018 \\ 
- \hline
-Level & I & B, A & 0.918 & 1 & 0.973 & 0.018 \\ 
- \hline
-Level & A & I, B & 0.918 & 0.918 & 0.918 & 0.073 \\ 
- \hline
-Type & F & T, B & 1 & 0.985 & 0.988 & 0.003 \\ 
- \hline
-Type & T & F, B & 0.918 & 1 & 0.973 & 0.018 \\ 
- \hline
-Type & B & T, F & 1 & 0.971 & 0.934 & 0.007 \\ 
+Level & 0.5 & 0.5 \\ 
  \hline
 \end{tabular}\\\\
-This time, splitting on \{\{Advanced, \{Beginner, Intermediate\}\} gives us the largest information gain, so we split on that feature, and again recalculate.\\\\
-Total Entropy: $-\frac{2}{6}log_2\frac{2}{6}-\frac{4}{6}log_2\frac{4}{6}=0.918$\\\\
- \begin{tabular}{ |c|c|c|c|c|c|c| } 
- \hline
- \textbf{Feature} & \textbf{Left} & \textbf{Right}& \textbf{Entropy(L)}& \textbf{Entropy(R)}& \textbf{Weighted Avg}& \textbf{Info Gain} \\ 
+
+\textbf{\$\$ Branch; Entropy = 0.971}\\
+ \begin{tabular}{ |c|c|c| } 
 \hline
-Price & \$ & \$\$ & 0.918 & 0.918 & 0.918 & 0 \\ 
+ \textbf{Feature} & \textbf{Weighted Average} & \textbf{Info Gain} \\ 
+\hline
+Type & 0.8 & 0.171 \\ 
+\hline
+Location & 0.551 & 0.42 \\ 
  \hline
-Location & LA & LB, B & 1 & 0.811 & 0.874 & 0.044 \\ 
- \hline
-Location & B & LA,  LB & 0.918 & 0.918 & 0.918 & 0 \\ 
- \hline
-Location & LB & LA, B & 0 & 0.971 & 0.809 & 0.109 \\ 
- \hline
-Level & I & B & 0.918 & 0.918 & 0.918 & 0 \\ 
- \hline
-Type & F & T, B & 1 & 0.811 & 0.874 & 0.044 \\ 
- \hline
-Type & T & F, B & 0 & 1 & 0.667 & 0.251 \\ 
- \hline
-Type & B & T, F & 1 & 0.811 & 0.874 & 0.044 \\ 
+Level & 0.8 & 0.171 \\ 
  \hline
 \end{tabular}\\\\
-Splitting on \{\{Tennis\}, \{Football, Basketball\}\} gives us the largest entropy gain, so we split on that.
-TODO
 
-\subsection*{b)} TODO
+For the \$\$ branch, splitting on location gives us the largest information gain. As for the \$ branch, the information gain for all feature splits it the same, so we also split on location.\\\\
 
-\subsection*{c)} TODO
+\textbf{\$/LA Branch; Entropy = 1}\\
+ \begin{tabular}{ |c|c|c| } 
+\hline
+ \textbf{Feature} & \textbf{Weighted Average} & \textbf{Info Gain} \\ 
+\hline
+Type & 0 & 1 \\ 
+\hline
+Level & 1 & 0 \\ 
+ \hline
+\end{tabular}\\\\
 
-\subsection*{d)} TODO
+\textbf{\$\$/Burbank Branch; Entropy = 0.9183}\\
+ \begin{tabular}{ |c|c|c| } 
+\hline
+ \textbf{Feature} & \textbf{Weighted Average} & \textbf{Info Gain} \\ 
+\hline
+Type & 0 & 0.9183 \\ 
+\hline
+Level & 0.6667 & 0.2516 \\ 
+ \hline
+\end{tabular}\\\\
 
-\subsection*{e)} TODO
+For both branches, we split on Type, which gives us our final tree:\\
+\begin{figure}[h!]
+  \includegraphics[scale=0.3]{./images/2a}
+\end{figure}
 
+\subsection*{b)} Our error is $\frac{0}{11}$; our tree classifies all of our training data correctly.
+
+\subsection*{c)} I would go to matches R12, R13, R16.
+
+\subsection*{d)} Our decision tree did not perform well, with an error of $\frac{3}{5}$, and an F1 score of 0.4.
+
+\subsection*{e)} We prune our tree of obtain a more cost-effective tree.\\
+ \begin{tabular}{ |c|c|c|c| } 
+\hline
+ \textbf{Tree} & \textbf{Error} & \textbf{Leaves} & \textbf{Objective} \\ 
+\hline
+Full & 0.6 & 9 & - \\ 
+\hline
+LA/Type & 0.6 & 8 & 0 \\ 
+\hline
+Burbank/Type & 0.6 & 6 & 0 \\ 
+\hline
+\$/Location & 0.2 & 4 & $\frac{0.6-0.2}{2}=0.2$ \\ 
+\hline
+\$\$/Location & 0.2 & 3 & 0 \\ 
+\hline
+Price & 0.4 & 1 & $\frac{0.4-0.2}{2}=-0.1$ \\ 
+\hline
+\end{tabular}\\\\
+Our most cost effective tree would have one split, on price.
 
 \newpage
 \section{Decision Tree (Short Answers)}
-\subsection*{a)} It's more likely to overfit on non-linearly separable data on the left. This is because not being linearly separable can be indicative of many features that differentiate the two classes. The tree would try to account for all of these and overfit. Instead, I would use a logistic regression model.
+\subsection*{a)} It's more likely to overfit on the linearly separable data on the left. This is because decision trees are better at fitting datasets that can't be separated by a single line, since they take so many variables into consideration. Decision trees are very prone to overfitting because of this, as they will try to find very precise boundaries between the points. Instead, I would use a logistic regression model, which works better on linearly separable data.
 
 \subsection*{b)}There is no need to standardize our data, as decision trees aren't sensitive to the magnitude of variables.
 
@@ -138,18 +149,18 @@ TODO
   \includegraphics[scale=0.4]{./images/4a}
 \end{figure}
 
-\subsection*{b)}I would increase the depth and increase the number of features we split on. After playing around with these parameters, the ones that produced the best results for me were max\_depth=12 and max\_features=5, giving and $R^2$ value of 0.913.\\
+\subsection*{b)} To tune the hyperparameters, we use RandomizedSearchCV, and give it some possible parameter values to try and find the best fit. Using this method, I found that the best parameters are \{'n\_estimators': 372, 'max\_features': 'auto', 'max\_depth': 19, 'bootstrap': True\}.\\
 \begin{figure}[h!]
-  \includegraphics[scale=0.4]{./images/4b}
+  \includegraphics[scale=0.5]{./images/4b}
 \end{figure}
 
 \subsection*{c)} Variable Importance
 \begin{figure}[h!]
-  \includegraphics[scale=0.4]{./images/4c}
+  \includegraphics[scale=0.5]{./images/4c}
 \end{figure}
 \clearpage
 
-\subsection*{d)} Using the same parameters, the feature importance for the two models are nearly identical.
+\subsection*{d)} As we can see, the feature importance for the two models are nearly identical.
 \begin{figure}[h!]
   \includegraphics[scale=0.4]{./images/4d}
 \end{figure}
@@ -175,7 +186,7 @@ $\Delta w_1 = 2(0-1)*2 = -4 \Rightarrow w_1 = -3 - 4 = -7$\\
 $\Delta w_2 = 2(0-1)*(-3) = 6 \Rightarrow w_2 = -13 + 6 = -5$\\
 $\Delta b = 2(0-1)*(-3) = 6 \Rightarrow b = -3 + 6 = 3$\\
 
-\subsection*{b)} It hasn't converged, because it is still mis-classifying points in our data. In this case, I don't expect it to converge, because (2, -3) has both 0 and 1 as actual values, which will continue to confuse our model.
+\subsection*{b)} It hasn't converged, because it is still misclassifying points in our data. In this case, I don't expect it to converge, because (2, -3) has both 0 and 1 as actual values, which will continue to confuse our model.
 
 \newpage
 \section{ Neural Networks}
@@ -193,6 +204,18 @@ As we can see, our data can be perfectly classfied with a single activation unit
 \clearpage
 
 \subsection*{c)}Yes, you should be able to, by first separating (1, 1) from the other three points, then separating (0, 0) from the other three points. These two activation units and their weights can be combined to form a neural network that perfectly classifies these points.
+
+\newpage
+\section{SVM Decision Boundary}
+\subsection*{a)} This decision boundary corresponds to plot 4, because it is a linear decision boundary. The support vectors are very close to the boundary, indicating a small C value.
+
+\subsection*{b)} This decision boundary corresponds to plot3, because the decision boundary is linear, with the boundary being far from the support vectors, indicating a large C value.
+
+\subsection*{c)} This boundary corresponds to plot 5, because it is the only quadratic boundary.
+
+\subsection*{d)} This decision boundary corresponds to plot 1, because it is an RBF kernel. It has a smaller $\sigma$ value, so the boundary is tight and well-fitted to the training data.
+
+\subsection*{e)} This decision boundary corresponds to plot 6, because it is an RBF kernel, this time with a large $\sigma$ value, corresponding to a "looser" boundary.
 
 
 \end{document}
