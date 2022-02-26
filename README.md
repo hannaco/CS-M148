@@ -5,7 +5,7 @@ Homeworks and Projects from CS M148 taken Winter 2022 with Prof. Baharan
 | Assignment   | Score       |
 | :----------: | :---------: |
 | Project 1    | 68.25/68.25 |
-| Project 2    |             |
+| Project 2    | 159.5/165.0 |
 | Project 3    |             |
 | Homework 1   | 95/100      |
 | Homework 2   |             |
