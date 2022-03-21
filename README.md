@@ -10,4 +10,4 @@ Homeworks and Projects from CS M148 taken Winter 2022 with Prof. Baharan
 | Homework 1   | 95/100      |
 | Homework 2   | 98/100      |
 | Homework 3   | 96/90       |
-| Homework 4   |             |
+| Homework 4   | 92/100      |
